@@ -1,2 +1,2 @@
 # Pseudo-Apple-Website
-HTML &amp; CSS
+Using HTML &amp; CSS I created a pseudo inspired Apple Website. You can view the webiste under deployment section. 
