@@ -1,0 +1,200 @@
+/* Top banner */
+
+body {
+    margin: 0; /* Removed the margin */
+    font-family: Arial, Sans-Serif;
+    color: #fff;
+    background-color: black
+}
+
+.logo img {
+    width: 20px;
+    height: auto;
+
+}
+
+.top-banner {
+    background-color:#1c1c1c;
+    padding: 10px 5px; /* Adds padding to the top and bottom */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Adds shadow to the banner */ 
+    position: sticky; /* Makes the banner sticky */
+    top: 0; /* Sets the banner to the top */
+    z-index: 1000; /* Sets the z-index to 1000 */
+    width: 100%;  /* Sets the width to 100% */
+    display: flex;  /* Aligns items horizontally */
+    justify-content: center;  /* Centers the items */
+}
+
+nav ul {
+    display: flex; /* Aligns list items horizontally */
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+    gap: 50px; /* Adds spacing between the items */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Removes underline from links */
+    font-size: 12px; /* Adjust font size if needed */
+    color: #a2a2a2;  /* Changes color of the text */
+  }
+  
+  nav ul li a:hover {
+    color: white; /* Changes color on hover for better interactivity */
+  }
+
+/* mid-banner */
+
+/* Mid Banner Styling */
+.mid-banner {
+  background: center/cover no-repeat;
+  background-image: url("images/ultrapear2.jpg"); /* Replace with your image */
+  background-size: 100%; /* Adjust background size */
+  height: 80vh; /* Adjust height as needed */
+  display: flex; /* Align items horizontally */
+  justify-content: center; /* Center items */
+  align-items: center; /* Center items */
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+  position: relative; /* Position relative for overlay */
+}
+
+/* Overlay Styling */
+.mid-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+  z-index: 1;
+}
+
+.content {
+  z-index: 2; /* Bring content to the front */
+}
+
+.content h1 {
+  font-size: 3rem; /* Adjust font size as needed */
+  font-weight: bold; /* Bold font */
+  margin-bottom: 1rem; /* Add margin to the bottom */
+}
+
+.content p {
+  font-size: 1.2rem; /* Adjust font size as needed */
+  margin-bottom: 2rem; /* Add margin to the bottom */
+}
+
+/* Buttons Styling */
+.content-buttons .button-one,
+.content-buttons .button-two {
+  display: inline-block; /* Display buttons inline */
+  padding: 0.8rem 1.5rem; /* Add padding to the buttons */
+  font-size: 1rem; /* Adjust font size as needed */
+  border-radius: 30px; /* Add border radius */
+  text-decoration: none; /* Remove underline from buttons */
+  transition: all 0.3s ease; /* Add transition for smooth hover effect */
+  margin: 0 0.5rem; /* Add margin to the buttons */
+}
+
+/* button-one styling */
+
+.button-one {
+  background-color: #0071e3;  /* Change button color */
+  color: white; /* Text color */
+}
+
+.button-one:hover {
+  background-color: #005bb5; /* Change button color on hover */
+}
+
+/* button-two styling */
+
+.button-two {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 1px solid white;
+}
+
+.button-two:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* mid-banner 2 */
+
+/* Mid Banner Styling */
+.mid-banner2 {
+  margin-top: 40px; /* Add margin to the top */
+  background: center/cover no-repeat;
+  background-image: url("images/uphone.webp"); /* Replace with your image */
+  background-size: 100%; /* Adjust background size */
+  height: 80vh; /* Adjust height as needed */
+  display: flex; /* Align items horizontally */
+  justify-content: center; /* Center items */
+  align-items: center; /* Center items */
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+  position: relative; /* Position relative for overlay */
+}
+
+/* Overlay Styling for mid banner 2 */
+.mid-banner2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+  z-index: 1;
+}
+
+/* mid-banner 3 */
+
+/* Mid Banner Styling */
+.mid-banner3 {
+  margin-top: 40px; /* Add margin to the top */
+  background: center/cover no-repeat;
+  background-image: url("images/upearsmart.jpg"); /* Replace with your image */
+  background-size: 100%; /* Adjust background size */
+  height: 80vh; /* Adjust height as needed */
+  display: flex; /* Align items horizontally */
+  justify-content: center; /* Center items */
+  align-items: center; /* Center items */
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+  position: relative; /* Position relative for overlay */
+}
+
+/* Overlay Styling for mid banner 3 */
+.mid-banner3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+  z-index: 1;
+}
+
+/* Footer styling */
+
+footer {
+  background-color: #111; /* Change footer background color */
+  color: #fff; /* Change text color */
+  text-align: center;   /* Center text */
+  padding: 10px 0; /* Add padding to the top and bottom */
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+footer a {
+  color: #a2a2a2; /* Change link color */
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 5px; /* Add margin to the links */
+}
+
+footer a:hover {
+  color: #fff; /* Change link color on hover */
+}
